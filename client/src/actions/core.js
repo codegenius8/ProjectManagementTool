@@ -1,0 +1,41 @@
+import ActionTypes from '../constants/ActionTypes';
+
+// eslint-disable-next-line import/prefer-default-export
+export const initializeCore = (
+  user,
+  board,
+  users,
+  projects,
+  projectManagers,
+  boards,
+  boardMemberships,
+  labels,
+  lists,
+  cards,
+  cardMemberships,
+  cardLabels,
+  tasks,
+  attachments,
+  actions,
+  notifications,
+) => ({
+  type: ActionTypes.CORE_INITIALIZE,
+  payload: {
+    user,
+    board,
+    users,
+    projects,
+    projectManagers,
+    boards,
+    boardMemberships,
+    labels,
+    lists,
+    cards,
+    cardMemberships,
+    cardLabels,
+    tasks,
+    attachments,
+    actions,
+    notifications,
+  },
+});
