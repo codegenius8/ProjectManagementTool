@@ -42,7 +42,7 @@ module.exports = {
         throw Errors.BOARD_NOT_FOUND; // Forbidden
       }
     }
-
+//wait
     const actions = await sails.helpers.cards.getActions(card.id, inputs.beforeId);
 
     const userIds = sails.helpers.utils.mapRecords(actions, 'userId', true);
