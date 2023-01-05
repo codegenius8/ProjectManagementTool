@@ -18,7 +18,7 @@ module.exports = {
       responseType: 'notFound',
     },
   },
-
+//show notification
   async fn(inputs) {
     const { currentUser } = this.req;
 
