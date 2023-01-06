@@ -9,7 +9,7 @@ import styles from './UserPopup.module.scss';
 
 const UserStep = React.memo(({ onSettingsClick, onLogout, onClose }) => {
   const [t] = useTranslation();
-
+//handle popup
   const handleSettingsClick = useCallback(() => {
     onSettingsClick();
     onClose();
