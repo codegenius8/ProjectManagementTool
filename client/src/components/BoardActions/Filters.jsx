@@ -8,7 +8,7 @@ import BoardMembershipsPopup from '../BoardMembershipsPopup';
 import LabelsPopup from '../LabelsPopup';
 
 import styles from './Filters.module.scss';
-
+//filter
 const Filters = React.memo(
   ({
     users,
